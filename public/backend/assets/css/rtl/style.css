@@ -1,0 +1,189 @@
+/** Custom Css for RTL **/
+.page-container{
+	padding-left: 0px;
+    padding-right: 280px;
+}
+
+.sidebar-menu {
+    right: 0;
+	left: inherit;
+}
+
+.page-title-area:before {
+    right: 0;
+	left: inherit;
+}
+
+.float-right{
+	float: left !important;
+}
+
+.float-left{
+	float: right !important;
+}
+
+.header-area {
+    padding: 0px 15px;
+}
+
+.metismenu li a i{
+	float: right;
+	margin-left: 10px;
+	line-height: 22px;
+}
+
+.metismenu li a:after {
+    content: '\f104';
+    right: auto;
+    left: 15px;
+}
+
+.metismenu li a span {
+    margin-left: 0px;
+}
+
+
+.sbar_collapsed_rtl.page-container{
+	padding-right: 0px;
+}
+
+.sbar_collapsed_rtl.page-container > .sidebar-menu{
+	right: -280px;
+}
+
+.notification-area li {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.page-title {
+    margin-right: 0px;
+	margin-left: 30px;
+}
+
+.text-right {
+    text-align: left !important;
+}
+
+code, samp, var, [type="email"], [type="file"], [type="number"], [type="password"], [type="tel"], [type="url"] {
+    text-align: right;
+    direction: rtl;
+}
+
+.chat-online-users {
+    left: 20px !important;
+    right: auto !important;
+}
+
+.chat-main{
+	left: 20px !important;
+    right: auto !important;
+}
+
+.chat-user-list label {
+    padding: 5px 15px 5px 0px;
+}
+
+.chat-user-list ul li a > span.contact-status {
+    left: inherit;
+    margin: -2px 12px 0 0px;
+    right: 0;
+}
+
+#widget-chat-form .tools{
+    top: 5px;
+    right: auto;
+    left: 0;
+}
+
+.chat-online-users i, .chat-main .options i {
+    margin-left: 0px !important;
+}
+
+.chat-user-list ul li a:hover{
+	text-decoration: none;
+}
+
+.chat-user-list ul li a > .group-img {
+    float: right;
+    margin-left: 7px;
+}
+
+.chat-user-list ul li a > .group-name {
+    float: right;
+    padding-top: 5px;
+}
+
+.chats .send-msg {
+   float: left;
+}
+
+.receive-msg > img {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+#frame #sidepanel {
+    float: right !important;
+}
+
+#frame .content .contact-profile img {
+    float: right !important;
+}
+
+#btn-fullscreen {
+    margin-right: 0px;
+    margin-top: -35px !important;
+    margin-left: 25px;
+}
+
+#frame .content .message-input .wrap input {
+    float: right;
+}
+
+#frame #sidepanel #contacts ul li.contact .wrap img {
+    float: right !important;
+    margin-right: 0px !important;
+    margin-left: 10px;
+}
+
+#frame #sidepanel #contacts ul li.contact .wrap span.contact-status {
+    right: 0;
+}
+
+#frame .content .messages ul li.sent p {
+    float: left;
+}
+
+#frame #sidepanel #search label {
+    margin: 10px 20px 0 0px !important;
+}
+
+#frame #sidepanel #search input {
+    padding: 10px 45px 10px 0px !important;
+}
+
+.group-img {
+    margin-right: 0px !important;
+    margin-left: 7px;
+}
+
+#frame #sidepanel #bottom-bar button {
+    padding: 15px 0 !important;
+}
+
+@media (max-width: 479px) and (min-width: 240px){
+	.sbar_collapsed .sidebar-menu {
+		left: 0;
+		right: -100%;
+	}
+	
+	.page-container, .sbar_collapsed.page-container {
+		padding-right: 0;
+	}
+	
+	.sbar_collapsed_rtl.page-container > .sidebar-menu {
+		right: 0px;
+	}
+}
+
